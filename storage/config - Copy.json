@@ -1,0 +1,10 @@
+{
+  "token": "NDkzNDU3MDM1NTkwMTA3MTM2.Do3EQA.6nGDDyi53Q_nxeImwfenEBb9ORI",
+  "serverName": "NiniteBot,Degenates Den",
+  "defaultPrefix": "!",
+  "purgeMessageTimer": "30000",
+  "botGame": "Bot Things?",
+  "botStatus": "dnd",
+  "botVersion": "0.9.0",
+  "loggerID": 2
+}
