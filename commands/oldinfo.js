@@ -23,7 +23,7 @@ exports.run = async (client, message, args, ops) => {
              description: "Welcome to !info you can find more information about commands at !help",
              fields: [{
                  name: ":spy: Owner:",
-                 value: "NiniteGamer#8172",
+                 value: "Thomas the Tank Engine#0001",
                  inline: true
              },
              {

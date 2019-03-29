@@ -25,11 +25,11 @@ exports.run = async (client, message, args) => {
             description: `${PREFIX}help`,
             fields: [{
                 name: "BASIC COMMANDS",
-                value: "!ninitebot, !help, !info, !help-meme"
+                value: `${PREFIX}ninitebot, ${PREFIX}help, ${PREFIX}info, ${PREFIX}help-meme`
             },
             {
                 name: "FUN COMMANDS",
-                value: "!meme, !dan, !quote, !urban, !johnny, !self-help, !ping"
+                value: `${PREFIX}meme, ${PREFIX}dan, ${PREFIX}quote, ${PREFIX}urban, ${PREFIX}johnny, ${PREFIX}self-help, ${PREFIX}ping`
             },
             {
                 name: "LEVEL COMMANDS",

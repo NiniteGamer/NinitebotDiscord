@@ -60,7 +60,7 @@ client.on("ready", () => {
 
 client.on("message", (message) => {
 
-    logger.info(`${message.guild.name}[${message.channel.name}]:${message.author.tag} - ${message.content}`);
+    logger.info(`[${message.channel.name}]:${message.author.tag} - ${message.content}`);
 
     if (message.author.bot) return
 

@@ -10,7 +10,7 @@ const logger = myLoggers.getLogger("HelpMeme-CMD");
 
 exports.run = async (client, message, args) => {
 
-    logger.info(`${message.author.tag} has ran the ${PREFIX}help-meme command on guild ${message.guild.name}`);
+    logger.info(`${message.author.tag} has ran the ${PREFIX}help-meme command`);
 
     message.author.send(`The ${PREFIX}meme command is used when you want to post a terrible meme. :x: *More terrible memes will be added in the future*`)
 

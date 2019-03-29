@@ -16,11 +16,13 @@ function getRandomInt(min, max) {
 
 exports.run = async (client, message, args) => {
 
-    logger.info(`${message.author.tag} has ran the !meme command on guild ${message.guild.name}`);
+    logger.info(`${message.author.tag} has ran the !meme`);
 
     var memes = ['\MEME1.jpeg', '\MEME2.jpeg', '\MEME3.jpeg'];
     console.log("The memes array is " + memes.length);
     logger.debug("The memes array is " + memes.length);
+
+    var sender = message.author.tag;
 
     var memerandom = getRandomInt(0, memes.length);
 
