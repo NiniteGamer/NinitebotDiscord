@@ -1,0 +1,8 @@
+[2019-03-28T12:54:13.433] [INFO] MAIN - I have successfully logged into: NiniteBot
+[2019-03-28T12:56:07.208] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !RELOAD status
+[2019-03-28T12:56:07.210] [INFO] Reload-CMD - Ape#6666 has used the !reload command with the args of status
+[2019-03-28T12:56:07.378] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - Succesfully reloaded command: status
+[2019-03-28T12:56:12.295] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !status test
+[2019-03-28T12:56:12.562] [INFO] MAIN - [undefined]:NiniteBot#3389 - The bots game was set to test
+[2019-03-28T12:56:17.438] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !status Update Coming Soon
+[2019-03-28T12:56:17.616] [INFO] MAIN - [undefined]:NiniteBot#3389 - The bots game was set to Update Coming Soon

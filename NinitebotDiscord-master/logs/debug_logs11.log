@@ -1,0 +1,115 @@
+[2019-03-31T11:57:49.221] [INFO] MAIN - I have successfully logged into: NiniteBot
+[2019-03-31T11:58:12.928] [INFO] MAIN - [ninitebot-testing]:neonwhitepsycho#2623 - !help
+[2019-03-31T11:58:12.936] [INFO] Help_CMD - The help command has been ran${PREFIX}
+[2019-03-31T11:58:12.938] [INFO] Help_CMD - Member: undefined has the kick_members permission false
+[2019-03-31T11:58:14.163] [INFO] MAIN - [undefined]:NiniteBot#3389 - 
+[2019-03-31T11:58:46.738] [INFO] MAIN - [ninitebot-testing]:neonwhitepsycho#2623 - !meme
+[2019-03-31T11:58:46.851] [INFO] Meme_CMD - neonwhitepsycho#2623 has ran the !meme
+[2019-03-31T11:58:46.852] [DEBUG] Meme_CMD - The memes array is 3
+[2019-03-31T11:58:46.852] [DEBUG] Meme_CMD - 1
+[2019-03-31T11:58:46.852] [INFO] Meme_CMD - neonwhitepsycho#2623 has used the !meme command
+[2019-03-31T11:58:47.395] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - MEMESSSSSSS
+[2019-03-31T11:58:59.540] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !help
+[2019-03-31T11:58:59.540] [INFO] Help_CMD - The help command has been ran${PREFIX}
+[2019-03-31T11:58:59.541] [INFO] Help_CMD - Member: undefined has the kick_members permission true
+[2019-03-31T11:59:00.713] [INFO] MAIN - [undefined]:NiniteBot#3389 - 
+[2019-03-31T11:59:28.777] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !mimic Hello
+[2019-03-31T11:59:28.789] [DEBUG] Mimic_CMD - Hello
+[2019-03-31T11:59:28.789] [DEBUG] Mimic_CMD - Hello
+[2019-03-31T11:59:28.789] [DEBUG] Mimic_CMD - Hello
+[2019-03-31T11:59:28.790] [INFO] Mimic_CMD - NiniteGamer#6666 has ran the !mimic with the args of Hello on guild NiniteBot
+[2019-03-31T11:59:29.174] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - Hello
+[2019-03-31T11:59:45.554] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !ninitebot
+[2019-03-31T11:59:45.560] [INFO] Ninitebot_CMD - NiniteGamer#6666 has ran the !ninitebot command on guild NiniteBot
+[2019-03-31T11:59:45.940] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - You called, you can type !help for all available commands, My current version is 0.9.0
+[2019-03-31T11:59:57.198] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !info
+[2019-03-31T11:59:57.200] [INFO] Info-CMD - NiniteGamer#6666 has ran the !info command on guild NiniteBot
+[2019-03-31T11:59:57.200] [DEBUG] Info-CMD - 4
+[2019-03-31T11:59:57.201] [DEBUG] Info-CMD - https://www.youtube.com/watch?v=n38Qxi7TVWo
+[2019-03-31T11:59:57.565] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - 
+[2019-03-31T12:00:17.495] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !help
+[2019-03-31T12:00:17.496] [INFO] Help_CMD - The help command has been ran${PREFIX}
+[2019-03-31T12:00:17.497] [INFO] Help_CMD - Member: undefined has the kick_members permission true
+[2019-03-31T12:00:17.835] [INFO] MAIN - [undefined]:NiniteBot#3389 - 
+[2019-03-31T12:00:36.646] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !ascii test
+[2019-03-31T12:00:37.159] [INFO] Ascii_CMD - NiniteGamer#6666 has ran the !ascii with the args of test on guild NiniteBot
+[2019-03-31T12:00:37.585] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - ```md
+ _               _   
+| |             | |  
+| |_   ___  ___ | |_ 
+| __| / _ \/ __|| __|
+| |_ |  __/\__ \| |_ 
+ \__| \___||___/ \__|
+```
+[2019-03-31T12:00:44.312] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !ascii -_-
+[2019-03-31T12:00:44.313] [INFO] Ascii_CMD - NiniteGamer#6666 has ran the !ascii with the args of -_- on guild NiniteBot
+[2019-03-31T12:00:45.348] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - ```md
+                        
+                        
+ ______          ______ 
+|______|        |______|
+                        
+                        
+         ______         
+        |______|
+```
+[2019-03-31T12:01:01.594] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !ascii Dragon
+[2019-03-31T12:01:01.594] [INFO] Ascii_CMD - NiniteGamer#6666 has ran the !ascii with the args of Dragon on guild NiniteBot
+[2019-03-31T12:01:01.908] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - ```md
+______                                   
+|  _  \                                  
+| | | | _ __   __ _   __ _   ___   _ __  
+| | | || '__| / _` | / _` | / _ \ | '_ \ 
+| |/ / | |   | (_| || (_| || (_) || | | |
+|___/  |_|    \__,_| \__, | \___/ |_| |_|
+                      __/ |              
+                     |___/
+```
+[2019-03-31T12:01:11.195] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !mimic !ascii Dragon
+[2019-03-31T12:01:11.197] [DEBUG] Mimic_CMD - !ascii Dragon
+[2019-03-31T12:01:11.198] [DEBUG] Mimic_CMD - !ascii,Dragon
+[2019-03-31T12:01:11.199] [DEBUG] Mimic_CMD - !ascii Dragon
+[2019-03-31T12:01:11.200] [INFO] Mimic_CMD - NiniteGamer#6666 has ran the !mimic with the args of !ascii Dragon on guild NiniteBot
+[2019-03-31T12:01:11.508] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - !ascii Dragon
+[2019-03-31T12:01:25.555] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !mimic !mimic Test
+[2019-03-31T12:01:25.557] [DEBUG] Mimic_CMD - !mimic Test
+[2019-03-31T12:01:25.558] [DEBUG] Mimic_CMD - !mimic,Test
+[2019-03-31T12:01:25.559] [DEBUG] Mimic_CMD - !mimic Test
+[2019-03-31T12:01:25.560] [INFO] Mimic_CMD - NiniteGamer#6666 has ran the !mimic with the args of !mimic Test on guild NiniteBot
+[2019-03-31T12:01:26.008] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - !mimic Test
+[2019-03-31T12:01:40.730] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !points
+[2019-03-31T12:01:40.793] [INFO] Points_CMD - NiniteGamer#6666 has ran the !points command on guild NiniteBot
+[2019-03-31T12:01:41.261] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - <@159412988539830272>, you currently have 382 points, good going!
+[2019-03-31T12:01:50.361] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !urban Help
+[2019-03-31T12:01:51.427] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - 
+[2019-03-31T12:02:00.908] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !urban Behind
+[2019-03-31T12:02:01.654] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - 
+[2019-03-31T12:02:41.296] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !urban dnd
+[2019-03-31T12:02:42.545] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - 
+[2019-03-31T12:02:48.776] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !urban dungeons and dragons
+[2019-03-31T12:02:49.506] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - 
+[2019-03-31T12:03:49.327] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !urban dungeons and dragons
+[2019-03-31T12:03:50.008] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - 
+[2019-03-31T12:16:19.819] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !reload help
+[2019-03-31T12:16:19.822] [INFO] Reload-CMD - NiniteGamer#6666 has used the !reload command with the args of help
+[2019-03-31T12:16:20.325] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - Succesfully reloaded command: help
+[2019-03-31T12:16:21.753] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !help
+[2019-03-31T12:16:21.754] [INFO] Help_CMD - The help command has been ran${PREFIX}
+[2019-03-31T12:16:21.757] [INFO] Help_CMD - Member: undefined has the kick_members permission true
+[2019-03-31T12:16:22.106] [INFO] MAIN - [undefined]:NiniteBot#3389 - 
+[2019-03-31T12:19:50.755] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !purge no
+[2019-03-31T12:24:16.281] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !reload help
+[2019-03-31T12:24:16.281] [INFO] Reload-CMD - NiniteGamer#6666 has used the !reload command with the args of help
+[2019-03-31T12:24:16.645] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - Succesfully reloaded command: help
+[2019-03-31T12:24:18.566] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !help
+[2019-03-31T12:24:18.573] [INFO] Help_CMD - The help command has been ran${PREFIX}
+[2019-03-31T12:24:18.597] [INFO] Help_CMD - Member: undefined has the kick_members permission true
+[2019-03-31T12:24:19.231] [INFO] MAIN - [undefined]:NiniteBot#3389 - 
+[2019-03-31T12:26:46.618] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !help
+[2019-03-31T12:26:46.619] [INFO] Help_CMD - The help command has been ran${PREFIX}
+[2019-03-31T12:26:46.627] [INFO] Help_CMD - Member: undefined has the kick_members permission true
+[2019-03-31T12:26:47.327] [INFO] MAIN - [undefined]:NiniteBot#3389 - 
+[2019-03-31T12:28:12.361] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !help
+[2019-03-31T12:28:12.361] [INFO] Help_CMD - The help command has been ran${PREFIX}
+[2019-03-31T12:28:12.363] [INFO] Help_CMD - Member: undefined has the kick_members permission true
+[2019-03-31T12:28:12.807] [INFO] MAIN - [undefined]:NiniteBot#3389 - 

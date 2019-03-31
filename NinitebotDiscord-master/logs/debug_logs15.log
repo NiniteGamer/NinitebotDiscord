@@ -1,0 +1,17 @@
+[2019-03-19T09:08:56.801] [INFO] MAIN - I have successfully logged into: NiniteBot,Degenates Den
+[2019-03-19T09:09:07.233] [INFO] MAIN - NiniteBot[ninitebot-testing]:Thomas the Tank Engine#0001 - !help-meme
+[2019-03-19T09:09:07.239] [INFO] HelpMeme-CMD - Thomas the Tank Engine#0001 has ran the !help-meme command
+[2019-03-19T09:09:07.618] [WARN] MAIN - TypeError: Cannot read property 'name' of null
+    at Client.client.on (C:\Users\theni\Desktop\NinitebotDiscord-master\NinitebotDiscord-master\app.js:63:34)
+    at Client.emit (events.js:189:13)
+    at MessageCreateHandler.handle (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\discord.js\src\client\websocket\packets\handlers\MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:103:65)
+    at WebSocketConnection.onPacket (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver._receiver.onmessage (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\ws\lib\websocket.js:137:47)
+    at Receiver.dataMessage (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\ws\lib\receiver.js:409:14)
+[2019-03-19T09:09:07.619] [WARN] MAIN - Node NOT Exiting...
+[2019-03-31T12:41:46.943] [INFO] MAIN - I have successfully logged into: NiniteBot
+[2019-03-31T12:41:49.056] [INFO] MAIN - [undefined]:NiniteGamer#6666 - !test

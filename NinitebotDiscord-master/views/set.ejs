@@ -1,0 +1,29 @@
+<!DOCTYPE html>  
+<html>  
+	<head>
+		<style>
+			body{background: skyblue; font-family: verdana; color: #fff; padding: 10px;}
+			h1{font-size: 20px; text-transform: uppercase; letter-spacing: 2px; text-align: left;}
+		</style>
+		<meta charset="utf-8">
+		<title>User page</title>
+	</head>
+	<body>
+
+		<div id = "top">
+		
+			<form>
+			
+				Discord Token:<br>
+				<input type="text" name="discordtoken" value="<%= token %>"><br>
+				Ninitebot Version:<br>
+				<input type="text" name="ninitebotver" value="<%= botversion %>"><br>
+			
+			</form>
+			<h1> Discord Token: <%= token %> </h1>
+			<h1> Ninitebot Version: <%= botversion %> </h1>
+			<h1> Prefix: <%= prefix %> </h1>
+			<h1> DevID: <%= devid %> </h1>
+		</div>
+	</body>
+</html>  

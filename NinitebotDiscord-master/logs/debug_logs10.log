@@ -1,0 +1,51 @@
+[2019-03-31T10:00:53.606] [INFO] MAIN - I have successfully logged into: NiniteBot
+[2019-03-31T10:01:11.315] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !help
+[2019-03-31T10:01:11.324] [INFO] Help_CMD - The help command has been ran${PREFIX}
+[2019-03-31T10:01:22.889] [INFO] MAIN - [undefined]:NiniteBot#3389 - 
+[2019-03-31T10:04:29.880] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !reload help
+[2019-03-31T10:04:29.890] [INFO] Reload-CMD - NiniteGamer#6666 has used the !reload command with the args of help
+[2019-03-31T10:04:31.260] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !help
+[2019-03-31T10:04:31.263] [INFO] Help_CMD - The help command has been ran${PREFIX}
+[2019-03-31T10:04:33.379] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - Succesfully reloaded command: help
+[2019-03-31T10:05:42.373] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !reload help
+[2019-03-31T10:05:42.374] [INFO] Reload-CMD - NiniteGamer#6666 has used the !reload command with the args of help
+[2019-03-31T10:05:42.747] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - Succesfully reloaded command: help
+[2019-03-31T10:05:44.345] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !help
+[2019-03-31T10:05:44.347] [INFO] Help_CMD - The help command has been ran${PREFIX}
+[2019-03-31T10:06:00.938] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !reload help
+[2019-03-31T10:06:00.939] [INFO] Reload-CMD - NiniteGamer#6666 has used the !reload command with the args of help
+[2019-03-31T10:06:01.213] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - Succesfully reloaded command: help
+[2019-03-31T10:06:14.609] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !help
+[2019-03-31T10:06:14.611] [INFO] Help_CMD - The help command has been ran${PREFIX}
+[2019-03-31T10:06:32.148] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !reload help
+[2019-03-31T10:06:32.148] [INFO] Reload-CMD - NiniteGamer#6666 has used the !reload command with the args of help
+[2019-03-31T10:06:32.428] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - Succesfully reloaded command: help
+[2019-03-31T10:06:33.482] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !help
+[2019-03-31T10:06:33.485] [INFO] Help_CMD - The help command has been ran${PREFIX}
+[2019-03-31T10:06:33.752] [INFO] MAIN - [undefined]:NiniteBot#3389 - 
+[2019-03-31T10:06:45.038] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !mimic !help
+[2019-03-31T10:06:45.052] [DEBUG] Mimic_CMD - !help
+[2019-03-31T10:06:45.055] [DEBUG] Mimic_CMD - !help
+[2019-03-31T10:06:45.057] [DEBUG] Mimic_CMD - !help
+[2019-03-31T10:06:45.059] [INFO] Mimic_CMD - NiniteGamer#6666 has ran the !mimic with the args of !help on guild NiniteBot
+[2019-03-31T10:06:45.403] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - !help
+[2019-03-31T10:06:57.256] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !reload help
+[2019-03-31T10:06:57.256] [INFO] Reload-CMD - NiniteGamer#6666 has used the !reload command with the args of help
+[2019-03-31T10:06:57.533] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - Succesfully reloaded command: help
+[2019-03-31T10:08:17.840] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !reload help
+[2019-03-31T10:08:17.841] [INFO] Reload-CMD - NiniteGamer#6666 has used the !reload command with the args of help
+[2019-03-31T10:08:18.104] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - Succesfully reloaded command: help
+[2019-03-31T10:08:19.854] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !help
+[2019-03-31T10:08:19.861] [INFO] Help_CMD - The help command has been ran${PREFIX}
+[2019-03-31T10:08:19.866] [INFO] Help_CMD - Member: undefined has the kick_members permission true
+[2019-03-31T10:08:20.140] [INFO] MAIN - [undefined]:NiniteBot#3389 - 
+[2019-03-31T10:09:35.432] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !reload help
+[2019-03-31T10:09:35.433] [INFO] Reload-CMD - NiniteGamer#6666 has used the !reload command with the args of help
+[2019-03-31T10:09:35.707] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - Succesfully reloaded command: help
+[2019-03-31T10:09:37.182] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !help
+[2019-03-31T10:09:37.185] [INFO] Help_CMD - The help command has been ran${PREFIX}
+[2019-03-31T10:09:37.187] [INFO] Help_CMD - Member: undefined has the kick_members permission true
+[2019-03-31T10:09:37.519] [INFO] MAIN - [undefined]:NiniteBot#3389 - 
+[2019-03-31T10:11:53.554] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !help-mimic
+[2019-03-31T10:11:53.556] [INFO] HelpMimic-CMD - NiniteGamer#6666 has ran the !help-mimic command on guild NiniteBot
+[2019-03-31T10:11:53.972] [INFO] MAIN - [undefined]:NiniteBot#3389 - The !mimic makes the bot say whatever you type after !mimic, You must have admin level privilages to use the command. Proper usage is !mimic <message>

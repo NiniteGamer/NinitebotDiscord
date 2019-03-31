@@ -1,0 +1,24 @@
+[2019-03-29T16:10:04.128] [INFO] MAIN - I have successfully logged into: NiniteBot
+[2019-03-29T16:10:09.558] [INFO] MAIN - [ninitebot-testing]:neonwhitepsycho#2623 - !help
+[2019-03-29T16:10:09.571] [INFO] Help_CMD - The help command has been ran${PREFIX}
+[2019-03-29T16:11:26.411] [INFO] MAIN - [ninitebot-testing]:neonwhitepsycho#2623 - !help
+[2019-03-29T16:11:26.413] [INFO] Help_CMD - The help command has been ran${PREFIX}
+[2019-03-29T16:11:33.273] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !help
+[2019-03-29T16:11:33.273] [INFO] Help_CMD - The help command has been ran${PREFIX}
+[2019-03-29T16:11:33.883] [INFO] MAIN - [undefined]:NiniteBot#3389 - 
+[2019-03-29T16:17:50.490] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !reload help
+[2019-03-29T16:17:50.497] [INFO] Reload-CMD - NiniteGamer#6666 has used the !reload command with the args of help
+[2019-03-29T16:17:50.814] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - Succesfully reloaded command: help
+[2019-03-29T16:18:17.218] [INFO] MAIN - [ninitebot-testing]:neonwhitepsycho#2623 - !help
+[2019-03-29T16:18:17.225] [INFO] Help_CMD - The help command has been ran${PREFIX}
+[2019-03-29T16:18:59.980] [INFO] MAIN - [ninitebot-testing]:neonwhitepsycho#2623 - /!help
+[2019-03-29T16:20:36.019] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !reload help
+[2019-03-29T16:20:36.020] [INFO] Reload-CMD - NiniteGamer#6666 has used the !reload command with the args of help
+[2019-03-29T16:20:36.457] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - Succesfully reloaded command: help
+[2019-03-29T16:20:50.547] [INFO] MAIN - [ninitebot-testing]:neonwhitepsycho#2623 - !help
+[2019-03-29T16:20:50.549] [INFO] Help_CMD - The help command has been ran${PREFIX}
+[2019-03-29T16:21:32.564] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !reload help
+[2019-03-29T16:21:32.564] [INFO] Reload-CMD - NiniteGamer#6666 has used the !reload command with the args of help
+[2019-03-29T16:21:32.909] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - Succesfully reloaded command: help
+[2019-03-29T16:21:39.814] [INFO] MAIN - [ninitebot-testing]:neonwhitepsycho#2623 - !help
+[2019-03-29T16:21:39.816] [INFO] Help_CMD - The help command has been ran${PREFIX}

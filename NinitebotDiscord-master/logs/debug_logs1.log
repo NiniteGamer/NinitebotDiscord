@@ -1,0 +1,12 @@
+[2019-03-28T13:06:31.194] [INFO] MAIN - I have successfully logged into: NiniteBot
+[2019-03-28T13:06:38.917] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !purge 40
+[2019-03-28T13:06:39.156] [INFO] Purge_CMD - 41 messages found, deleting on NiniteBot, command was ran by Ape#6666
+[2019-03-28T13:06:39.157] [DEBUG] Purge_CMD - 30000
+[2019-03-28T13:06:39.392] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - :wastebasket: I have deleted '41' messages for Ape#6666.
+[2019-03-28T13:06:55.808] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !info
+[2019-03-28T13:06:55.809] [INFO] Info-CMD - Ape#6666 has ran the !info command on guild NiniteBot
+[2019-03-28T13:06:55.809] [DEBUG] Info-CMD - 3
+[2019-03-28T13:06:55.810] [DEBUG] Info-CMD - https://youtu.be/HWQR-hAJrKU?t=11s
+[2019-03-28T13:06:56.002] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - 
+[2019-03-28T13:07:04.813] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !invite
+[2019-03-28T13:07:04.964] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - 

@@ -1,0 +1,11 @@
+[2019-03-28T12:56:21.317] [INFO] MAIN - I have successfully logged into: NiniteBot
+[2019-03-28T12:57:07.548] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !reload game
+[2019-03-28T12:57:07.550] [INFO] Reload-CMD - Ape#6666 has used the !reload command with the args of game
+[2019-03-28T12:57:07.699] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - Succesfully reloaded command: game
+[2019-03-28T12:57:10.480] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !game tet
+[2019-03-28T12:57:11.643] [INFO] MAIN - [undefined]:NiniteBot#3389 - The bots game was set to t
+[2019-03-28T12:57:53.619] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !reload game
+[2019-03-28T12:57:53.619] [INFO] Reload-CMD - Ape#6666 has used the !reload command with the args of game
+[2019-03-28T12:57:53.760] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - Succesfully reloaded command: game
+[2019-03-28T12:57:57.096] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !game Testing
+[2019-03-28T12:57:57.248] [INFO] MAIN - [undefined]:NiniteBot#3389 - The bots game was set to Testing

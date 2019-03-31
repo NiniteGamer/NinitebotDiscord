@@ -1,0 +1,130 @@
+[2019-03-19T09:05:07.009] [INFO] MAIN - I have successfully logged into: NiniteBot,Degenates Den
+[2019-03-19T09:05:19.668] [INFO] MAIN - NiniteBot[ninitebot-testing]:Thomas the Tank Engine#0001 - !ping
+[2019-03-19T09:05:19.671] [INFO] Ping_CMD - Thomas the Tank Engine#0001 has ran the !ping command on guild NiniteBot
+[2019-03-19T09:05:19.842] [INFO] MAIN - NiniteBot[ninitebot-testing]:NiniteBot#3389 - Pong!
+[2019-03-19T09:05:31.194] [INFO] MAIN - NiniteBot[ninitebot-testing]:Thomas the Tank Engine#0001 - !help-meme
+[2019-03-19T09:05:31.195] [INFO] HelpMeme-CMD - Thomas the Tank Engine#0001 has ran the !help-meme command on guild NiniteBot
+[2019-03-19T09:05:31.975] [WARN] MAIN - TypeError: Cannot read property 'name' of null
+    at Client.client.on (C:\Users\theni\Desktop\NinitebotDiscord-master\NinitebotDiscord-master\app.js:63:34)
+    at Client.emit (events.js:189:13)
+    at MessageCreateHandler.handle (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\discord.js\src\client\websocket\packets\handlers\MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:103:65)
+    at WebSocketConnection.onPacket (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver._receiver.onmessage (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\ws\lib\websocket.js:137:47)
+    at Receiver.dataMessage (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\ws\lib\receiver.js:409:14)
+[2019-03-19T09:05:31.975] [WARN] MAIN - Node NOT Exiting...
+[2019-03-19T09:05:31.977] [WARN] MAIN - TypeError: Cannot read property 'name' of null
+    at Client.client.on (C:\Users\theni\Desktop\NinitebotDiscord-master\NinitebotDiscord-master\app.js:63:34)
+    at Client.emit (events.js:189:13)
+    at MessageCreateHandler.handle (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\discord.js\src\client\websocket\packets\handlers\MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:103:65)
+    at WebSocketConnection.onPacket (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver._receiver.onmessage (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\ws\lib\websocket.js:137:47)
+    at Receiver.dataMessage (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\ws\lib\receiver.js:409:14)
+[2019-03-19T09:05:31.977] [WARN] MAIN - Node NOT Exiting...
+[2019-03-19T09:06:15.280] [WARN] MAIN - { Error [ERR_UNHANDLED_ERROR]: Unhandled error. ([object Object])
+    at Client.emit (events.js:178:17)
+    at WebSocketConnection.onError (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:374:17)
+    at WebSocket.onError (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\ws\lib\event-target.js:128:16)
+    at WebSocket.emit (events.js:189:13)
+    at _receiver.cleanup (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\ws\lib\websocket.js:211:14)
+    at Receiver.cleanup (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\ws\lib\receiver.js:557:13)
+    at WebSocket.finalize (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\ws\lib\websocket.js:206:20)
+    at Receiver._receiver.onerror (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\ws\lib\websocket.js:161:34)
+    at Receiver.error (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\ws\lib\receiver.js:480:10)
+    at Receiver.getInfo (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\ws\lib\receiver.js:161:12)
+  context:
+   ErrorEvent {
+     target:
+      WebSocket {
+        _events: [Object],
+        _eventsCount: 4,
+        _maxListeners: undefined,
+        readyState: 2,
+        protocol: '',
+        _binaryType: 'nodebuffer',
+        _finalize: [Function: bound finalize],
+        _closeFrameReceived: false,
+        _closeFrameSent: false,
+        _closeMessage: '',
+        _closeTimer: null,
+        _finalized: true,
+        _closeCode: 1002,
+        _extensions: {},
+        _isServer: false,
+        _receiver: [Receiver],
+        _sender: [Sender],
+        _socket: [TLSSocket],
+        _error: null,
+        url: 'wss://gateway.discord.gg/?v=6&encoding=json',
+        _req: null },
+     type: 'error',
+     message: 'Invalid WebSocket frame: RSV2 and RSV3 must be clear',
+     error:
+      RangeError: Invalid WebSocket frame: RSV2 and RSV3 must be clear
+          at Receiver.getInfo (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\ws\lib\receiver.js:162:9)
+          at Receiver.startLoop (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\ws\lib\receiver.js:131:16)
+          at Receiver.add (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\ws\lib\receiver.js:117:10)
+          at TLSSocket.emit (events.js:189:13)
+          at addChunk (_stream_readable.js:284:12)
+          at readableAddChunk (_stream_readable.js:265:11)
+          at TLSSocket.Readable.push (_stream_readable.js:220:10)
+          at TLSWrap.onStreamRead (internal/stream_base_commons.js:94:17) } }
+[2019-03-19T09:06:15.281] [WARN] MAIN - Node NOT Exiting...
+[2019-03-19T09:06:15.285] [WARN] MAIN - { Error [ERR_UNHANDLED_ERROR]: Unhandled error. ([object Object])
+    at Client.emit (events.js:178:17)
+    at WebSocketConnection.onError (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:374:17)
+    at WebSocket.onError (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\ws\lib\event-target.js:128:16)
+    at WebSocket.emit (events.js:189:13)
+    at _receiver.cleanup (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\ws\lib\websocket.js:211:14)
+    at Receiver.cleanup (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\ws\lib\receiver.js:557:13)
+    at WebSocket.finalize (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\ws\lib\websocket.js:206:20)
+    at Receiver._receiver.onerror (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\ws\lib\websocket.js:161:34)
+    at Receiver.error (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\ws\lib\receiver.js:480:10)
+    at Receiver.getInfo (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\ws\lib\receiver.js:161:12)
+  context:
+   ErrorEvent {
+     target:
+      WebSocket {
+        _events: [Object],
+        _eventsCount: 4,
+        _maxListeners: undefined,
+        readyState: 2,
+        protocol: '',
+        _binaryType: 'nodebuffer',
+        _finalize: [Function: bound finalize],
+        _closeFrameReceived: false,
+        _closeFrameSent: false,
+        _closeMessage: '',
+        _closeTimer: null,
+        _finalized: true,
+        _closeCode: 1002,
+        _extensions: {},
+        _isServer: false,
+        _receiver: [Receiver],
+        _sender: [Sender],
+        _socket: [TLSSocket],
+        _error: null,
+        url: 'wss://gateway.discord.gg/?v=6&encoding=json',
+        _req: null },
+     type: 'error',
+     message: 'Invalid WebSocket frame: RSV2 and RSV3 must be clear',
+     error:
+      RangeError: Invalid WebSocket frame: RSV2 and RSV3 must be clear
+          at Receiver.getInfo (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\ws\lib\receiver.js:162:9)
+          at Receiver.startLoop (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\ws\lib\receiver.js:131:16)
+          at Receiver.add (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\ws\lib\receiver.js:117:10)
+          at TLSSocket.emit (events.js:189:13)
+          at addChunk (_stream_readable.js:284:12)
+          at readableAddChunk (_stream_readable.js:265:11)
+          at TLSSocket.Readable.push (_stream_readable.js:220:10)
+          at TLSWrap.onStreamRead (internal/stream_base_commons.js:94:17) } }
+[2019-03-19T09:06:15.285] [WARN] MAIN - Node NOT Exiting...
+[2019-03-31T12:40:31.110] [INFO] MAIN - I have successfully logged into: NiniteBot
+[2019-03-31T12:40:33.047] [INFO] MAIN - [undefined]:NiniteGamer#6666 - !test

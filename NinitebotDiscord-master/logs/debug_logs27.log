@@ -1,0 +1,112 @@
+[2019-03-28T12:29:36.692] [INFO] MAIN - I have successfully logged into: NiniteBot
+[2019-03-28T12:29:46.921] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !ascii test
+[2019-03-28T12:29:47.064] [INFO] Ascii_CMD - Ape#6666 has ran the !ascii with the args of test on guild NiniteBot
+[2019-03-28T12:29:47.258] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - ```md
+ _               _   
+| |             | |  
+| |_   ___  ___ | |_ 
+| __| / _ \/ __|| __|
+| |_ |  __/\__ \| |_ 
+ \__| \___||___/ \__|
+```
+[2019-03-28T12:30:50.123] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !meme
+[2019-03-28T12:30:50.137] [INFO] Meme_CMD - Ape#6666 has ran the !meme command on guild NiniteBot
+[2019-03-28T12:30:50.137] [DEBUG] Meme_CMD - The memes array is 3
+[2019-03-28T12:30:50.138] [DEBUG] Meme_CMD - 0
+[2019-03-28T12:31:27.206] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !meme
+[2019-03-28T12:31:27.206] [INFO] Meme_CMD - Ape#6666 has ran the !meme command on guild NiniteBot
+[2019-03-28T12:31:27.206] [DEBUG] Meme_CMD - The memes array is 3
+[2019-03-28T12:31:27.206] [DEBUG] Meme_CMD - 0
+[2019-03-28T12:32:07.661] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !reload meme
+[2019-03-28T12:32:07.662] [INFO] Reload-CMD - Ape#6666 has used the !reload command with the args of meme
+[2019-03-28T12:32:07.813] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - Succesfully reloaded command: meme
+[2019-03-28T12:32:09.757] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !meme
+[2019-03-28T12:32:09.757] [INFO] Meme_CMD - Ape#6666 has ran the !meme
+[2019-03-28T12:32:09.758] [DEBUG] Meme_CMD - The memes array is 3
+[2019-03-28T12:32:09.758] [DEBUG] Meme_CMD - 1
+[2019-03-28T12:32:49.170] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !reload meme
+[2019-03-28T12:32:49.170] [INFO] Reload-CMD - Ape#6666 has used the !reload command with the args of meme
+[2019-03-28T12:32:49.294] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - Succesfully reloaded command: meme
+[2019-03-28T12:32:50.826] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !meme
+[2019-03-28T12:32:50.826] [INFO] Meme_CMD - Ape#6666 has ran the !meme
+[2019-03-28T12:32:50.829] [DEBUG] Meme_CMD - The memes array is 3
+[2019-03-28T12:32:50.829] [DEBUG] Meme_CMD - 0
+[2019-03-28T12:32:50.829] [INFO] Meme_CMD - Ape#6666 has used the !meme command
+[2019-03-28T12:32:51.043] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - MEMESSSSSSS
+[2019-03-28T12:32:59.299] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !meme
+[2019-03-28T12:32:59.299] [INFO] Meme_CMD - Ape#6666 has ran the !meme
+[2019-03-28T12:32:59.300] [DEBUG] Meme_CMD - The memes array is 3
+[2019-03-28T12:32:59.300] [DEBUG] Meme_CMD - 1
+[2019-03-28T12:32:59.300] [INFO] Meme_CMD - Ape#6666 has used the !meme command
+[2019-03-28T12:32:59.700] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - MEMESSSSSSS
+[2019-03-28T12:33:19.006] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !urban meme
+[2019-03-28T12:33:19.326] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - 
+[2019-03-28T12:33:30.033] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !purge 20
+[2019-03-28T12:33:30.222] [INFO] Purge_CMD - 21 messages found, deleting on NiniteBot, command was ran by Ape#6666
+[2019-03-28T12:33:30.223] [DEBUG] Purge_CMD - 30000
+[2019-03-28T12:33:30.361] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - :wastebasket: I have deleted '21' messages for Ape#6666.
+[2019-03-28T12:34:40.111] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !status
+[2019-03-28T12:34:40.458] [INFO] MAIN - [undefined]:NiniteBot#3389 - The bots game was set to
+[2019-03-28T12:34:47.080] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !status Hello
+[2019-03-28T12:34:47.258] [INFO] MAIN - [undefined]:NiniteBot#3389 - The bots game was set to Hello
+[2019-03-28T12:34:52.395] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !status default
+[2019-03-28T12:34:52.535] [INFO] MAIN - [undefined]:NiniteBot#3389 - The bots game was set to default
+[2019-03-28T12:35:31.961] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !status Update 0.9.5 coming soon
+[2019-03-28T12:35:32.143] [INFO] MAIN - [undefined]:NiniteBot#3389 - The bots game was set to Update 0.9.5 coming soon
+[2019-03-28T12:37:59.944] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !reload status
+[2019-03-28T12:37:59.944] [INFO] Reload-CMD - Ape#6666 has used the !reload command with the args of status
+[2019-03-28T12:38:00.097] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - Succesfully reloaded command: status
+[2019-03-28T12:38:04.216] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !status Test
+[2019-03-28T12:38:04.377] [INFO] MAIN - [undefined]:NiniteBot#3389 - The bots game was set to Test
+[2019-03-28T12:38:46.214] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !reload status
+[2019-03-28T12:38:46.214] [INFO] Reload-CMD - Ape#6666 has used the !reload command with the args of status
+[2019-03-28T12:38:46.416] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - Succesfully reloaded command: status
+[2019-03-28T12:38:49.599] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !status Test
+[2019-03-28T12:39:15.740] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !reload status
+[2019-03-28T12:39:15.740] [INFO] Reload-CMD - Ape#6666 has used the !reload command with the args of status
+[2019-03-28T12:39:15.896] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - Succesfully reloaded command: status
+[2019-03-28T12:39:20.001] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !status test
+[2019-03-28T12:40:36.150] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !reload status
+[2019-03-28T12:40:36.150] [INFO] Reload-CMD - Ape#6666 has used the !reload command with the args of status
+[2019-03-28T12:40:36.318] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - Succesfully reloaded command: status
+[2019-03-28T12:40:38.578] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !status test
+[2019-03-28T12:40:40.521] [INFO] MAIN - [undefined]:NiniteBot#3389 - The bots game was set to test
+[2019-03-28T12:41:07.149] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !reload test
+[2019-03-28T12:41:07.149] [INFO] Reload-CMD - Ape#6666 has used the !reload command with the args of test
+[2019-03-28T12:41:07.323] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - Succesfully reloaded command: test
+[2019-03-28T12:41:10.103] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !reload status
+[2019-03-28T12:41:10.104] [INFO] Reload-CMD - Ape#6666 has used the !reload command with the args of status
+[2019-03-28T12:41:10.244] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - Succesfully reloaded command: status
+[2019-03-28T12:41:12.628] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !status test
+[2019-03-28T12:41:12.925] [INFO] MAIN - [undefined]:NiniteBot#3389 - The bots game was set to test
+[2019-03-28T12:42:12.211] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !reload status
+[2019-03-28T12:42:12.211] [INFO] Reload-CMD - Ape#6666 has used the !reload command with the args of status
+[2019-03-28T12:42:12.392] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - Succesfully reloaded command: status
+[2019-03-28T12:42:14.270] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !status test
+[2019-03-28T12:42:14.414] [INFO] MAIN - [undefined]:NiniteBot#3389 - The bots game was set to test
+[2019-03-28T12:42:29.824] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !status Update 0.9.5 Coming Soon
+[2019-03-28T12:42:30.024] [INFO] MAIN - [undefined]:NiniteBot#3389 - The bots game was set to Update 0.9.5 Coming Soon
+[2019-03-28T12:46:22.788] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !reload prefix
+[2019-03-28T12:46:22.789] [INFO] Reload-CMD - Ape#6666 has used the !reload command with the args of prefix
+[2019-03-28T12:46:22.962] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - Succesfully reloaded command: prefix
+[2019-03-28T12:46:44.308] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !prefix @
+[2019-03-28T12:47:05.063] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !reload prefix
+[2019-03-28T12:47:05.063] [INFO] Reload-CMD - Ape#6666 has used the !reload command with the args of prefix
+[2019-03-28T12:47:05.949] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - Succesfully reloaded command: prefix
+[2019-03-28T12:47:09.826] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !prefix @
+[2019-03-28T12:47:35.392] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !reload prefix
+[2019-03-28T12:47:35.392] [INFO] Reload-CMD - Ape#6666 has used the !reload command with the args of prefix
+[2019-03-28T12:47:35.575] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - Succesfully reloaded command: prefix
+[2019-03-28T12:47:40.079] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !prefix @
+[2019-03-28T12:47:40.223] [INFO] MAIN - [undefined]:NiniteBot#3389 - The bots prefix was set to !
+[2019-03-28T12:48:28.140] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - @reload prefix
+[2019-03-28T12:48:37.062] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !reload prefix
+[2019-03-28T12:48:37.062] [INFO] Reload-CMD - Ape#6666 has used the !reload command with the args of prefix
+[2019-03-28T12:48:37.242] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - Succesfully reloaded command: prefix
+[2019-03-28T12:48:47.248] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !reload *
+[2019-03-28T12:48:47.248] [INFO] Reload-CMD - Ape#6666 has used the !reload command with the args of *
+[2019-03-28T12:48:47.248] [INFO] Reload-CMD - Ape#6666 has reloaded all commands
+[2019-03-28T12:48:47.416] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - Successfully reloaded all commands
+[2019-03-28T12:48:51.203] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !test
+[2019-03-28T12:48:51.351] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - test
+[2019-03-28T12:48:55.045] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - @test

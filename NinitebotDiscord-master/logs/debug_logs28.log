@@ -1,0 +1,9 @@
+[2019-03-28T12:49:21.802] [INFO] MAIN - I have successfully logged into: NiniteBot
+[2019-03-28T12:49:24.676] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - @test
+[2019-03-28T12:49:24.820] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - test
+[2019-03-28T12:49:26.672] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !test
+[2019-03-28T12:49:28.091] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - @test
+[2019-03-28T12:49:28.232] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - test
+[2019-03-28T12:51:44.419] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - @prefix !
+[2019-03-28T12:51:44.704] [INFO] MAIN - [undefined]:NiniteBot#3389 - The bots prefix was set to @
+[2019-03-28T12:51:51.222] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !prefix

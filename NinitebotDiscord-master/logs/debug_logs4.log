@@ -1,0 +1,12 @@
+[2019-03-29T10:07:06.562] [INFO] MAIN - I have successfully logged into: NiniteBot
+[2019-03-29T10:07:14.923] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !test
+[2019-03-29T10:07:15.258] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - test
+[2019-03-29T10:07:19.665] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !ninitebot
+[2019-03-29T10:07:23.945] [INFO] Ninitebot_CMD - NiniteGamer#6666 has ran the !ninitebot command on guild NiniteBot
+[2019-03-29T10:07:24.118] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - You called, you can type !help for all available commands, My current version is 0.9.0
+[2019-03-29T10:07:30.669] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !info
+[2019-03-29T10:07:30.709] [INFO] Info-CMD - NiniteGamer#6666 has ran the !info command on guild NiniteBot
+[2019-03-29T10:07:30.709] [DEBUG] Info-CMD - 3
+[2019-03-29T10:07:30.710] [DEBUG] Info-CMD - https://youtu.be/HWQR-hAJrKU?t=11s
+[2019-03-29T10:07:30.920] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - 
+[2019-03-29T10:13:42.072] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - https://trello.com/invite/b/7weKqD6r/4afe885859ac811d7100c2223096c1bd/ninitebot-discord-development-map
