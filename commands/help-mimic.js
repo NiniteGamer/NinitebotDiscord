@@ -8,11 +8,11 @@ const myLoggers = require('log4js');
 const logger = myLoggers.getLogger("HelpMimic-CMD");
 ///////////////////////////////////////////////////////////////////////////////
 
-exports.run = async (client, message, args) => {
+exports.run = async (client, message, args, ops) => {
 
     logger.info(`${message.author.tag} has ran the ${PREFIX}help-mimic command on guild ${message.guild.name}`);
 
     //Checks if the user asking is a Administrator, if they're not it will say the command doesn't exist
-    if (!message.member.hasPermission("ADMINISTRATOR") || message.member.id !== ops.ownerID) return message.author.send(`This command is unavailable`)
+    if (!message.member.hasPermission("BAN_MEMBER") || message.member.id !== ops.ownerID) return message.author.send(`This command is unavailable`)
     else (message.author.send(`The ${PREFIX}mimic makes the bot say whatever you type after !mimic, You must have admin level privilages to use the command. Proper usage is ${PREFIX}mimic <message>`))
 }

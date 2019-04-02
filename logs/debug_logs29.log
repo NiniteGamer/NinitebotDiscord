@@ -1,0 +1,11 @@
+[2019-03-28T12:51:55.636] [INFO] MAIN - I have successfully logged into: NiniteBot
+[2019-03-28T12:51:58.346] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !prefix
+[2019-03-28T12:51:58.616] [INFO] MAIN - [undefined]:NiniteBot#3389 - The bots prefix was set to !
+[2019-03-28T12:52:02.590] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !test
+[2019-03-28T12:52:02.748] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - test
+[2019-03-28T12:52:05.543] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !prefix !
+[2019-03-28T12:52:05.802] [INFO] MAIN - [undefined]:NiniteBot#3389 - The bots prefix was set to !
+[2019-03-28T12:52:43.904] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !status TEest
+[2019-03-28T12:52:44.078] [INFO] MAIN - [undefined]:NiniteBot#3389 - The bots game was set to TEest
+[2019-03-28T12:52:47.574] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !status Test
+[2019-03-28T12:52:47.721] [INFO] MAIN - [undefined]:NiniteBot#3389 - The bots game was set to Test

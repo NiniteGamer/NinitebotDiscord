@@ -11,7 +11,7 @@ const logger = myLoggers.getLogger("Fskip_CMD");
 exports.run = async (client, message, args, ops) => {
     //Gets the messages sender's id for accountability
 
-    if (!message.member.hasPermission("ADMINISTRATOR") || message.member.id !== ops.ownerID) return message.author.send(`This command is unavailable`)
+    if (!message.member.hasPermission("BAN_MEMBER") || message.member.id !== ops.ownerID) return message.author.send(`This command is unavailable`)
 
     let admin = message.author.tag;
 
@@ -22,7 +22,7 @@ exports.run = async (client, message, args, ops) => {
     if (message.member.voiceChannel !== message.guild.me.voiceChannel) return message.channel.send(`Sorry you aren/'t currently connected to the same voice channel!`);
 
 
-    if (message.member.hasPermission("ADMINISTRATOR")) {
+    if (message.member.hasPermission("BAN_MEMBER")) {
         ops.active.set(message.guild.id, fetched)
 
         return fetched.dispatcher.emit('finish')

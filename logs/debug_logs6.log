@@ -1,0 +1,42 @@
+[2019-03-29T15:27:48.513] [INFO] MAIN - I have successfully logged into: NiniteBot
+[2019-03-29T15:27:53.626] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !help-mimic
+[2019-03-29T15:27:53.632] [INFO] HelpMimic-CMD - NiniteGamer#6666 has ran the !help-mimic command on guild NiniteBot
+[2019-03-29T15:27:56.960] [INFO] MAIN - [undefined]:NiniteBot#3389 - The !mimic makes the bot say whatever you type after !mimic, You must have admin level privilages to use the command. Proper usage is !mimic <message>
+[2019-03-29T15:28:18.108] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !mimic 12345
+[2019-03-29T15:28:18.112] [DEBUG] Mimic_CMD - 12345
+[2019-03-29T15:28:18.113] [DEBUG] Mimic_CMD - 12345
+[2019-03-29T15:28:18.114] [DEBUG] Mimic_CMD - 12345
+[2019-03-29T15:28:18.115] [INFO] Mimic_CMD - NiniteGamer#6666 has ran the !mimic with the args of 12345 on guild NiniteBot
+[2019-03-29T15:28:18.763] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - 12345
+[2019-03-29T15:29:26.208] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !self-help
+[2019-03-29T15:29:31.470] [INFO] MAIN - [undefined]:NiniteBot#3389 - ....
+[2019-03-29T15:31:57.240] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !reload game
+[2019-03-29T15:31:57.242] [INFO] Reload-CMD - NiniteGamer#6666 has used the !reload command with the args of game
+[2019-03-29T15:31:58.309] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - Succesfully reloaded command: game
+[2019-03-29T15:32:05.741] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !game test
+[2019-03-29T15:32:05.742] [INFO] Default - undefined has ran the game/status command
+[2019-03-29T15:32:06.371] [INFO] MAIN - [undefined]:NiniteBot#3389 - The bots game was set to test
+[2019-03-29T15:32:13.351] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !game Update 0.9.5 coming soon
+[2019-03-29T15:32:13.351] [INFO] Default - undefined has ran the game/status command
+[2019-03-29T15:32:15.424] [INFO] MAIN - [undefined]:NiniteBot#3389 - The bots game was set to Update 0.9.5 coming soon
+[2019-03-29T15:35:23.399] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !eval
+[2019-03-29T15:35:23.405] [INFO] Default - NiniteGamer#6666 has ran the !eval command on guild NiniteBot
+[2019-03-29T15:38:35.312] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !eval console.log("Check me out");
+[2019-03-29T15:38:35.313] [INFO] Default - NiniteGamer#6666 has ran the !eval command on guild NiniteBot
+[2019-03-29T15:38:56.783] [INFO] MAIN - I have successfully logged into: NiniteBot
+[2019-03-29T15:38:56.790] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !help
+[2019-03-29T15:38:56.800] [ERROR] MAIN - C:\Users\theni\Desktop\NinitebotDiscord-master\NinitebotDiscord-master\commands\help.js:18
+    if (${PREFIX}message.member.hasPermission("ADMINISTRATOR")) return message.author.send({
+         ^
+
+SyntaxError: Unexpected token {
+    at new Script (vm.js:80:7)
+    at createScript (vm.js:274:10)
+    at Object.runInThisContext (vm.js:326:10)
+    at Module._compile (internal/modules/cjs/loader.js:664:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)

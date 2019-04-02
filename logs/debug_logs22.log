@@ -1,0 +1,48 @@
+[2019-03-20T09:22:36.036] [INFO] MAIN - I have successfully logged into: NiniteBot,Degenates Den
+[2019-03-20T09:22:39.289] [INFO] MAIN - [ninitebot-testing]:Thomas the Tank Engine#0001 - !info
+[2019-03-20T09:22:39.296] [INFO] Info-CMD - Thomas the Tank Engine#0001 has ran the !info command on guild NiniteBot
+[2019-03-20T09:22:39.296] [DEBUG] Info-CMD - 3
+[2019-03-20T09:22:39.297] [DEBUG] Info-CMD - https://www.youtube.com/watch?v=dQw4w9WgXcQ
+[2019-03-31T12:56:24.815] [INFO] MAIN - I have successfully logged into: NiniteBot
+[2019-03-31T12:56:32.872] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !play hello
+[2019-03-31T12:56:32.963] [INFO] Play_CMD - NiniteGamer#6666 has ran the !play command on guild NiniteBot, with the args of hello
+[2019-03-31T12:56:32.963] [DEBUG] Play_CMD - **DEBUG** [object Map]
+[2019-03-31T12:56:34.781] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - **[1]:** `Adele - Hello`
+**[2]:** `Ugly God - Hello ft. Lil Pump (OFFICIAL LYRIC VIDEO)`
+**[3]:** `Lionel Richie - Hello`
+**[4]:** `Adele - Hello (Official Lyrics Video) HD`
+**[5]:** `Adele - Hello`
+**[6]:** `Kes - Hello (Folklore Riddim) "2018 Soca" [AdvoKit Productions x Julianspromos]`
+**[7]:** `Adele - Hello (Live at the NRJ Awards)`
+**[8]:** `Martin Solveig & Dragonette - Hello (Official Short Video Version HD)`
+**[9]:** `OMFG - Hello`
+**[10]:** `Hello Granny in Real Life! Hide and Seek Game With Granny in Our House!!`
+
+**Choose a number between** `1-10`
+[2019-03-31T12:56:38.046] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - 4
+[2019-03-31T12:56:38.049] [INFO] Play_CMD - NiniteGamer#6666 has ran the !play command on guild NiniteBot, with the args of /watch?v=9h0Arg_-380
+[2019-03-31T12:56:38.050] [DEBUG] Play_CMD - **DEBUG** [object Map]
+[2019-03-31T12:56:53.578] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !reload paley
+[2019-03-31T12:56:53.581] [INFO] Reload-CMD - NiniteGamer#6666 has used the !reload command with the args of paley
+[2019-03-31T12:56:53.972] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - Unable to reload: paley
+[2019-03-31T12:56:55.737] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !reload play
+[2019-03-31T12:56:55.738] [INFO] Reload-CMD - NiniteGamer#6666 has used the !reload command with the args of play
+[2019-03-31T12:56:56.286] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - Succesfully reloaded command: play
+[2019-03-31T12:56:59.864] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !play hello
+[2019-03-31T12:56:59.883] [INFO] Play_CMD - NiniteGamer#6666 has ran the !play command on guild NiniteBot, with the args of hello
+[2019-03-31T12:56:59.883] [DEBUG] Play_CMD - **DEBUG** [object Map]
+[2019-03-31T12:57:01.478] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - **[1]:** `Adele - Hello`
+**[2]:** `Ugly God - Hello ft. Lil Pump (OFFICIAL LYRIC VIDEO)`
+**[3]:** `Lionel Richie - Hello`
+**[4]:** `Adele - Hello (Official Lyrics Video) HD`
+**[5]:** `OMFG - Hello`
+**[6]:** `Kes - Hello (Folklore Riddim) "2018 Soca" [AdvoKit Productions x Julianspromos]`
+**[7]:** `LIONEL RICHIE - HELLO LYRICS`
+**[8]:** `I just came to say hello lyrics HD`
+**[9]:** `Martin Solveig & Dragonette - Hello (Official Short Video Version HD)`
+**[10]:** `HELLO NEIGHBOR NIGHTMARE DOORS OF DEATH! ALPHA 4 DOUBLE JUMP Mini Game w/ Red & Green Key FGTEEV #3`
+
+**Choose a number between** `1-10`
+[2019-03-31T12:57:03.633] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - 4
+[2019-03-31T12:57:03.636] [INFO] Play_CMD - NiniteGamer#6666 has ran the !play command on guild NiniteBot, with the args of /watch?v=9h0Arg_-380
+[2019-03-31T12:57:03.636] [DEBUG] Play_CMD - **DEBUG** [object Map]

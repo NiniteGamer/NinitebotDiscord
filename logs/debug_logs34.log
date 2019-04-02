@@ -1,0 +1,54 @@
+[2019-03-28T13:00:57.680] [INFO] MAIN - I have successfully logged into: NiniteBot
+[2019-03-28T13:01:02.068] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !rloggerid
+[2019-03-28T13:01:23.674] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !reload rloggerid
+[2019-03-28T13:01:23.675] [INFO] Reload-CMD - Ape#6666 has used the !reload command with the args of rloggerid
+[2019-03-28T13:01:23.880] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - Succesfully reloaded command: rloggerid
+[2019-03-28T13:01:26.119] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !rloggerid
+[2019-03-28T13:01:26.430] [INFO] MAIN - [undefined]:NiniteBot#3389 - Couldn/'t change the bots prefix
+[2019-03-28T13:01:38.756] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !rloggerid
+[2019-03-28T13:01:38.922] [INFO] MAIN - [undefined]:NiniteBot#3389 - Couldn/'t change the bots prefix
+[2019-03-28T13:02:36.264] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !rloggerid
+[2019-03-28T13:02:36.426] [INFO] MAIN - [undefined]:NiniteBot#3389 - Couldn/'t change the bots prefix
+[2019-03-28T13:02:42.086] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !reload rloggerid
+[2019-03-28T13:02:42.086] [INFO] Reload-CMD - Ape#6666 has used the !reload command with the args of rloggerid
+[2019-03-28T13:02:42.215] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - Succesfully reloaded command: rloggerid
+[2019-03-28T13:02:44.364] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !rloggerid
+[2019-03-28T13:02:44.698] [INFO] MAIN - [undefined]:NiniteBot#3389 - LoggerID reset to zero}
+[2019-03-28T13:03:59.592] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !reload rloggerid
+[2019-03-28T13:03:59.593] [INFO] Reload-CMD - Ape#6666 has used the !reload command with the args of rloggerid
+[2019-03-28T13:03:59.753] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - Succesfully reloaded command: rloggerid
+[2019-03-28T13:04:02.832] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !rloggerid
+[2019-03-28T13:04:03.089] [INFO] MAIN - [undefined]:NiniteBot#3389 - LoggerID already at zero
+[2019-03-28T13:04:22.617] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !reload rlogid
+[2019-03-28T13:04:22.617] [INFO] Reload-CMD - Ape#6666 has used the !reload command with the args of rlogid
+[2019-03-28T13:04:22.795] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - Succesfully reloaded command: rlogid
+[2019-03-28T13:04:25.086] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !rlogid
+[2019-03-28T13:04:25.290] [INFO] MAIN - [undefined]:NiniteBot#3389 - LoggerID already at zero
+[2019-03-28T13:04:59.357] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !mimic test
+[2019-03-28T13:04:59.359] [DEBUG] Mimic_CMD - test
+[2019-03-28T13:04:59.359] [DEBUG] Mimic_CMD - test
+[2019-03-28T13:04:59.359] [DEBUG] Mimic_CMD - test
+[2019-03-28T13:04:59.360] [INFO] Mimic_CMD - Ape#6666 has ran the !mimic with the args of test on guild NiniteBot
+[2019-03-28T13:04:59.496] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - test
+[2019-03-28T13:05:08.270] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !mimic 😃
+[2019-03-28T13:05:08.272] [DEBUG] Mimic_CMD - 😃
+[2019-03-28T13:05:08.273] [DEBUG] Mimic_CMD - 😃
+[2019-03-28T13:05:08.273] [DEBUG] Mimic_CMD - 😃
+[2019-03-28T13:05:08.274] [INFO] Mimic_CMD - Ape#6666 has ran the !mimic with the args of 😃 on guild NiniteBot
+[2019-03-28T13:05:08.691] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - 😃
+[2019-03-28T13:05:17.970] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !quote
+[2019-03-28T13:05:18.125] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - Pong!
+[2019-03-28T13:05:23.302] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !quote test
+[2019-03-28T13:05:23.477] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - Pong!
+[2019-03-28T13:05:42.792] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !ninitebot
+[2019-03-28T13:05:42.793] [INFO] Ninitebot_CMD - Ape#6666 has ran the !ninitebot command on guild NiniteBot
+[2019-03-28T13:05:43.019] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - You called, you can type !help for all available commands, My current version is 0.9.0
+[2019-03-28T13:05:45.785] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !help
+[2019-03-28T13:05:45.786] [INFO] Help_CMD - The help command has been ran!
+[2019-03-28T13:05:46.114] [INFO] MAIN - [undefined]:NiniteBot#3389 - 
+[2019-03-28T13:06:02.564] [INFO] MAIN - [ninitebot-testing]:Ape#6666 - !mimic !help
+[2019-03-28T13:06:02.564] [DEBUG] Mimic_CMD - !help
+[2019-03-28T13:06:02.564] [DEBUG] Mimic_CMD - !help
+[2019-03-28T13:06:02.565] [DEBUG] Mimic_CMD - !help
+[2019-03-28T13:06:02.565] [INFO] Mimic_CMD - Ape#6666 has ran the !mimic with the args of !help on guild NiniteBot
+[2019-03-28T13:06:02.708] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - !help

@@ -1,0 +1,22 @@
+[2019-03-29T15:20:51.388] [INFO] MAIN - I have successfully logged into: NiniteBot
+[2019-03-29T15:21:05.074] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !prefix @
+[2019-03-29T15:21:06.574] [INFO] MAIN - [undefined]:NiniteBot#3389 - The bots prefix was set to !
+[2019-03-29T15:21:13.166] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - @test
+[2019-03-29T15:21:14.796] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - test
+[2019-03-29T15:21:18.154] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - 😄
+[2019-03-29T15:21:39.593] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - @prefix $
+[2019-03-29T15:21:40.711] [INFO] MAIN - [undefined]:NiniteBot#3389 - The bots prefix was set to !
+[2019-03-29T15:21:47.002] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - $test
+[2019-03-29T15:21:47.805] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - test
+[2019-03-29T15:22:00.966] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - $prefix !
+[2019-03-29T15:22:01.653] [INFO] MAIN - [undefined]:NiniteBot#3389 - The bots prefix was set to !
+[2019-03-29T15:22:06.928] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !test
+[2019-03-29T15:22:07.548] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - test
+[2019-03-29T15:22:17.921] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !mimic I hate this
+[2019-03-29T15:22:17.923] [DEBUG] Mimic_CMD - I hate this
+[2019-03-29T15:22:17.924] [DEBUG] Mimic_CMD - I,hate,this
+[2019-03-29T15:22:17.924] [DEBUG] Mimic_CMD - I hate this
+[2019-03-29T15:22:17.924] [INFO] Mimic_CMD - NiniteGamer#6666 has ran the !mimic with the args of I hate this on guild NiniteBot
+[2019-03-29T15:22:18.529] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - I hate this
+[2019-03-29T15:25:27.528] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !help-mimic
+[2019-03-29T15:25:27.530] [INFO] HelpMimic-CMD - NiniteGamer#6666 has ran the !help-mimic command on guild NiniteBot

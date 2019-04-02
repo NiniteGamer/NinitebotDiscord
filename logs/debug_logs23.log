@@ -1,0 +1,46 @@
+[2019-03-20T09:22:55.147] [INFO] MAIN - I have successfully logged into: NiniteBot,Degenates Den
+[2019-03-20T09:22:58.598] [INFO] MAIN - [ninitebot-testing]:Thomas the Tank Engine#0001 - !info
+[2019-03-20T09:22:58.603] [INFO] Info-CMD - Thomas the Tank Engine#0001 has ran the !info command on guild NiniteBot
+[2019-03-20T09:22:58.603] [DEBUG] Info-CMD - 3
+[2019-03-20T09:22:58.604] [DEBUG] Info-CMD - https://www.youtube.com/watch?v=dQw4w9WgXcQ
+[2019-03-20T09:22:59.146] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - 
+[2019-03-20T09:24:46.691] [INFO] MAIN - [ninitebot-testing]:Thomas the Tank Engine#0001 - !oldinfo
+[2019-03-20T09:24:46.692] [INFO] Default - Thomas the Tank Engine#0001 has ran the !oldinfo command on guild NiniteBot
+[2019-03-20T09:24:46.905] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - 
+[2019-03-20T09:25:28.918] [INFO] MAIN - [ninitebot-testing]:Thomas the Tank Engine#0001 - !mimic testing
+[2019-03-20T09:25:28.920] [DEBUG] Mimic_CMD - testing
+[2019-03-20T09:25:28.921] [DEBUG] Mimic_CMD - testing
+[2019-03-20T09:25:28.921] [DEBUG] Mimic_CMD - testing
+[2019-03-20T09:25:28.922] [INFO] Mimic_CMD - Thomas the Tank Engine#0001 has ran the !mimic with the args of testing on guild NiniteBot
+[2019-03-20T09:25:29.102] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - testing
+[2019-03-20T09:25:39.848] [INFO] MAIN - [ninitebot-testing]:Thomas the Tank Engine#0001 - !mimic HAHAHAHA
+[2019-03-20T09:25:39.849] [DEBUG] Mimic_CMD - HAHAHAHA
+[2019-03-20T09:25:39.849] [DEBUG] Mimic_CMD - HAHAHAHA
+[2019-03-20T09:25:39.850] [DEBUG] Mimic_CMD - HAHAHAHA
+[2019-03-20T09:25:39.850] [INFO] Mimic_CMD - Thomas the Tank Engine#0001 has ran the !mimic with the args of HAHAHAHA on guild NiniteBot
+[2019-03-20T09:25:40.016] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - HAHAHAHA
+[2019-03-20T09:25:54.809] [INFO] MAIN - [ninitebot-testing]:Thomas the Tank Engine#0001 - !purge 10
+[2019-03-20T09:25:55.029] [INFO] Purge_CMD - 11 messages found, deleting on NiniteBot, command was ran by Thomas the Tank Engine#0001
+[2019-03-20T09:25:55.031] [DEBUG] Purge_CMD - 30000
+[2019-03-20T09:25:55.205] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - :wastebasket: I have deleted '11' messages for Thomas the Tank Engine#0001.
+[2019-03-20T09:27:20.475] [INFO] MAIN - [ninitebot-testing]:Thomas the Tank Engine#0001 - !dan
+[2019-03-20T09:27:20.663] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - Daniel is the worst human being, and his memes are old
+[2019-03-31T12:57:57.508] [INFO] MAIN - I have successfully logged into: NiniteBot
+[2019-03-31T12:58:02.867] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !play hello
+[2019-03-31T12:58:02.948] [INFO] Play_CMD - NiniteGamer#6666 has ran the !play command on guild NiniteBot, with the args of hello
+[2019-03-31T12:58:02.948] [DEBUG] Play_CMD - **DEBUG** [object Map]
+[2019-03-31T12:58:05.223] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - **[1]:** `Adele - Hello`
+**[2]:** `Ugly God - Hello ft. Lil Pump (OFFICIAL LYRIC VIDEO)`
+**[3]:** `Lionel Richie - Hello`
+**[4]:** `Adele - Hello (Official Lyrics Video) HD`
+**[5]:** `Kes - Hello (Folklore Riddim) "2018 Soca" [AdvoKit Productions x Julianspromos]`
+**[6]:** `OMFG - Hello`
+**[7]:** `LIONEL RICHIE - HELLO LYRICS`
+**[8]:** `I just came to say hello lyrics HD`
+**[9]:** `TO BEAT THE NEIGHBOR, WE MUST BECOME THE NEIGHBOR! / Roblox: Hello Neighbor`
+**[10]:** `HELLO NEIGHBOR NIGHTMARE DOORS OF DEATH! ALPHA 4 DOUBLE JUMP Mini Game w/ Red & Green Key FGTEEV #3`
+
+**Choose a number between** `1-10`
+[2019-03-31T12:58:08.306] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - 4
+[2019-03-31T12:58:08.316] [INFO] Play_CMD - NiniteGamer#6666 has ran the !play command on guild NiniteBot, with the args of /watch?v=9h0Arg_-380
+[2019-03-31T12:58:08.317] [DEBUG] Play_CMD - **DEBUG** [object Map]

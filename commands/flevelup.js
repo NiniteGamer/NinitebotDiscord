@@ -6,7 +6,7 @@ const CONFIG = require("../storage/config.json");
 const PREFIX = CONFIG.PREFIX;
 const myLoggers = require('log4js');
 const sql = require("sqlite");
-const logger = myLoggers.getLogger("Default");
+const logger = myLoggers.getLogger("FLevelup");
 ///////////////////////////////////////////////////////////////////////////////
 
 //Make it so they can level up anyone in the guild
@@ -19,7 +19,7 @@ exports.run = async (client, message, args, ops) => {
 
     logger.info(`${message.author.tag} has ran the ${PREFIX}flevelup command on guild ${message.guild.name}`);
 
-    if (!message.member.hasPermission("ADMINISTRATOR")) return message.channel.send("You do not have access to this command!");
+    if (!message.member.hasPermission("BAN_MEMBER")) return message.channel.send("You do not have access to this command!");
 
     let level = parseInt(args[0])
 

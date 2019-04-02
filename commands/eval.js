@@ -6,7 +6,7 @@ const CONFIG = require("../storage/config.json");
 const PREFIX = CONFIG.defaultPrefix;
 const myLoggers = require('log4js');
 const apps = require('../app');
-const logger = myLoggers.getLogger("Default");
+const logger = myLoggers.getLogger("Eval");
 ///////////////////////////////////////////////////////////////////////////////
 
 exports.run = async (client, message, args, ops) => {

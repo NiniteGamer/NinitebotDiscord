@@ -60,9 +60,25 @@ client.on("ready", () => {
 
 client.on("message", (message) => {
 
+    BOTVERSION.tostring;
+    console.log(BOTVERSION);
+    
+    if (BOTVERSION !== '0.9.0') {
+        message.channel.send("Sorry you're using a outdated version of Ninitebot Somehow");
+        return;
+    }
+
+    var PREFIX = CONFIG.defaultPrefix;
+
     logger.info(`[${message.channel.name}]:${message.author.tag} - ${message.content}`);
 
+    console.log(message.channel.type);
+
     if (message.author.bot) return
+    if (message.channel.type === "dm") {
+        message.channel.send("Sorry my owner doesn't allow me to talk in the dms :(")
+        return;
+    }
 
     let args = message.content.slice(PREFIX.length).trim().split(' ');
     let cmd = args.shift().toLowerCase();

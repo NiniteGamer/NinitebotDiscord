@@ -1,0 +1,135 @@
+[2019-03-29T15:39:18.432] [INFO] MAIN - I have successfully logged into: NiniteBot
+[2019-03-29T15:39:21.054] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !help
+[2019-03-29T15:39:21.074] [INFO] Help_CMD - The help command has been ran${PREFIX}
+[2019-03-29T15:39:22.987] [INFO] MAIN - [undefined]:NiniteBot#3389 - 
+[2019-03-29T15:39:46.443] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !prefix ~
+[2019-03-29T15:39:50.180] [INFO] MAIN - [undefined]:NiniteBot#3389 - The bots prefix was set to !
+[2019-03-29T15:39:51.218] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - ~help
+[2019-03-29T15:39:51.219] [INFO] Help_CMD - The help command has been ran${PREFIX}
+[2019-03-29T15:39:51.975] [INFO] MAIN - [undefined]:NiniteBot#3389 - 
+[2019-03-29T15:40:38.230] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - ~reload help
+[2019-03-29T15:40:38.234] [INFO] Reload-CMD - NiniteGamer#6666 has used the !reload command with the args of help
+[2019-03-29T15:40:38.856] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - Succesfully reloaded command: help
+[2019-03-29T15:40:41.380] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - ~help
+[2019-03-29T15:40:41.384] [INFO] Help_CMD - The help command has been ran${PREFIX}
+[2019-03-29T15:40:42.060] [INFO] MAIN - [undefined]:NiniteBot#3389 - 
+[2019-03-29T15:41:39.903] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - ~reload help
+[2019-03-29T15:41:39.904] [INFO] Reload-CMD - NiniteGamer#6666 has used the !reload command with the args of help
+[2019-03-29T15:41:40.525] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - Succesfully reloaded command: help
+[2019-03-29T15:41:44.974] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - ~prefix !
+[2019-03-29T15:41:45.709] [INFO] MAIN - [undefined]:NiniteBot#3389 - The bots prefix was set to !
+[2019-03-29T15:41:51.155] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !help
+[2019-03-29T15:41:51.159] [INFO] Help_CMD - The help command has been ran${PREFIX}
+[2019-03-29T15:41:51.955] [INFO] MAIN - [undefined]:NiniteBot#3389 - 
+[2019-03-29T15:42:27.539] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !ascii NiniteBot
+[2019-03-29T15:42:28.923] [INFO] Ascii_CMD - NiniteGamer#6666 has ran the !ascii with the args of NiniteBot on guild NiniteBot
+[2019-03-29T15:42:29.692] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - ```md
+ _   _  _         _  _         ______         _   
+| \ | |(_)       (_)| |        | ___ \       | |  
+|  \| | _  _ __   _ | |_   ___ | |_/ /  ___  | |_ 
+| . ` || || '_ \ | || __| / _ \| ___ \ / _ \ | __|
+| |\  || || | | || || |_ |  __/| |_/ /| (_) || |_ 
+\_| \_/|_||_| |_||_| \__| \___|\____/  \___/  \__|
+```
+[2019-03-29T15:42:33.165] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - 😃
+[2019-03-29T15:45:20.577] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !points
+[2019-03-29T15:45:20.584] [INFO] Points_CMD - NiniteGamer#6666 has ran the !points command on guild NiniteBot
+[2019-03-29T15:45:21.157] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - <@159412988539830272>, you currently have 334 points, good going!
+[2019-03-29T15:45:26.006] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - OH MAN
+[2019-03-29T15:45:29.397] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !points
+[2019-03-29T15:45:29.398] [INFO] Points_CMD - NiniteGamer#6666 has ran the !points command on guild NiniteBot
+[2019-03-29T15:45:30.189] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - <@159412988539830272>, you currently have 336 points, good going!
+[2019-03-29T15:45:32.522] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - 😄
+[2019-03-29T15:45:37.549] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !spend
+[2019-03-29T15:45:37.577] [ERROR] MAIN - Error: Cannot find module './commands/spend.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:582:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:508:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Client.client.on (C:\Users\theni\Desktop\NinitebotDiscord-master\NinitebotDiscord-master\app.js:101:27)
+    at Client.emit (events.js:189:13)
+    at MessageCreateHandler.handle (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\discord.js\src\client\websocket\packets\handlers\MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:103:65)
+    at WebSocketConnection.onPacket (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (C:\Users\theni\Desktop\NinitebotDiscord-master\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+[2019-03-29T15:45:39.705] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - Rip
+[2019-03-29T15:50:03.179] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !reload spend
+[2019-03-29T15:50:03.180] [INFO] Reload-CMD - NiniteGamer#6666 has used the !reload command with the args of spend
+[2019-03-29T15:50:03.590] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - Succesfully reloaded command: spend
+[2019-03-29T15:50:06.903] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !spend
+[2019-03-29T15:50:07.468] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - AAAAHHhhHHHHHH
+[2019-03-29T15:50:08.065] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - <@159412988539830272>, you currently have 341 points, good going!
+[2019-03-29T15:51:01.709] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !points
+[2019-03-29T15:51:01.709] [INFO] Points_CMD - NiniteGamer#6666 has ran the !points command on guild NiniteBot
+[2019-03-29T15:51:02.145] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - <@159412988539830272>, you currently have 342 points, good going!
+[2019-03-29T15:53:00.653] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !purge 99
+[2019-03-29T15:53:01.241] [INFO] Purge_CMD - 100 messages found, deleting on NiniteBot, command was ran by NiniteGamer#6666
+[2019-03-29T15:53:01.245] [DEBUG] Purge_CMD - 30000
+[2019-03-29T15:53:01.870] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - :wastebasket: I have deleted '100' messages for NiniteGamer#6666.
+[2019-03-29T15:54:42.739] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !game test
+[2019-03-29T15:54:42.746] [INFO] Default - undefined has ran the game/status command
+[2019-03-29T15:54:43.964] [INFO] MAIN - [undefined]:NiniteBot#3389 - The bots game was set to test
+[2019-03-29T15:54:55.348] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !game Update 0.9.5 coming soon
+[2019-03-29T15:54:55.349] [INFO] Default - undefined has ran the game/status command
+[2019-03-29T15:54:57.711] [INFO] MAIN - [undefined]:NiniteBot#3389 - The bots game was set to Update 0.9.5 coming soon
+[2019-03-29T15:56:28.578] [INFO] MAIN - [ninitebot-testing]:neonwhitepsycho#2623 - !info
+[2019-03-29T15:56:28.584] [INFO] Info-CMD - neonwhitepsycho#2623 has ran the !info command on guild NiniteBot
+[2019-03-29T15:56:28.584] [DEBUG] Info-CMD - 3
+[2019-03-29T15:56:28.594] [DEBUG] Info-CMD - https://www.youtube.com/watch?v=SQoA_wjmE9w
+[2019-03-29T15:56:28.957] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - 
+[2019-03-29T15:57:41.949] [INFO] MAIN - [ninitebot-testing]:neonwhitepsycho#2623 - !info
+[2019-03-29T15:57:41.950] [INFO] Info-CMD - neonwhitepsycho#2623 has ran the !info command on guild NiniteBot
+[2019-03-29T15:57:41.950] [DEBUG] Info-CMD - 3
+[2019-03-29T15:57:41.959] [DEBUG] Info-CMD - https://www.youtube.com/watch?v=SQoA_wjmE9w
+[2019-03-29T15:57:42.282] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - 
+[2019-03-29T16:02:44.595] [INFO] MAIN - [ninitebot-testing]:neonwhitepsycho#2623 - !info
+[2019-03-29T16:02:44.596] [INFO] Info-CMD - neonwhitepsycho#2623 has ran the !info command on guild NiniteBot
+[2019-03-29T16:02:44.596] [DEBUG] Info-CMD - 3
+[2019-03-29T16:02:44.604] [DEBUG] Info-CMD - https://www.youtube.com/watch?v=dQw4w9WgXcQ
+[2019-03-29T16:02:45.366] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - 
+[2019-03-29T16:03:13.017] [INFO] MAIN - [ninitebot-testing]:neonwhitepsycho#2623 - ! Info
+[2019-03-29T16:03:13.018] [INFO] Info-CMD - neonwhitepsycho#2623 has ran the !info command on guild NiniteBot
+[2019-03-29T16:03:13.018] [DEBUG] Info-CMD - 3
+[2019-03-29T16:03:13.026] [DEBUG] Info-CMD - https://www.youtube.com/watch?v=dQw4w9WgXcQ
+[2019-03-29T16:03:13.604] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - 
+[2019-03-29T16:03:41.086] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !reload info
+[2019-03-29T16:03:41.087] [INFO] Reload-CMD - NiniteGamer#6666 has used the !reload command with the args of info
+[2019-03-29T16:03:41.600] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - Succesfully reloaded command: info
+[2019-03-29T16:03:44.508] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !info
+[2019-03-29T16:03:44.513] [INFO] Info-CMD - NiniteGamer#6666 has ran the !info command on guild NiniteBot
+[2019-03-29T16:03:44.513] [DEBUG] Info-CMD - 3
+[2019-03-29T16:03:44.543] [DEBUG] Info-CMD - https://www.youtube.com/watch?v=SQoA_wjmE9w
+[2019-03-29T16:03:45.118] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - 
+[2019-03-29T16:04:37.161] [INFO] MAIN - [ninitebot-testing]:neonwhitepsycho#2623 - ! Info
+[2019-03-29T16:04:37.162] [INFO] Info-CMD - neonwhitepsycho#2623 has ran the !info command on guild NiniteBot
+[2019-03-29T16:04:37.162] [DEBUG] Info-CMD - 3
+[2019-03-29T16:04:37.174] [DEBUG] Info-CMD - https://www.youtube.com/watch?v=dQw4w9WgXcQ
+[2019-03-29T16:04:37.631] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - 
+[2019-03-29T16:04:53.740] [INFO] MAIN - [ninitebot-testing]:neonwhitepsycho#2623 - !info
+[2019-03-29T16:04:53.741] [INFO] Info-CMD - neonwhitepsycho#2623 has ran the !info command on guild NiniteBot
+[2019-03-29T16:04:53.741] [DEBUG] Info-CMD - 3
+[2019-03-29T16:04:53.756] [DEBUG] Info-CMD - https://www.youtube.com/watch?v=SQoA_wjmE9w
+[2019-03-29T16:04:54.100] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - 
+[2019-03-29T16:05:15.747] [INFO] MAIN - [ninitebot-testing]:neonwhitepsycho#2623 - !info
+[2019-03-29T16:05:15.747] [INFO] Info-CMD - neonwhitepsycho#2623 has ran the !info command on guild NiniteBot
+[2019-03-29T16:05:15.747] [DEBUG] Info-CMD - 3
+[2019-03-29T16:05:15.759] [DEBUG] Info-CMD - https://youtu.be/HWQR-hAJrKU?t=11s
+[2019-03-29T16:05:16.015] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - 
+[2019-03-29T16:05:46.581] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !reload info
+[2019-03-29T16:05:46.581] [INFO] Reload-CMD - NiniteGamer#6666 has used the !reload command with the args of info
+[2019-03-29T16:05:46.995] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - Succesfully reloaded command: info
+[2019-03-29T16:05:49.002] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !info
+[2019-03-29T16:05:49.006] [INFO] Info-CMD - NiniteGamer#6666 has ran the !info command on guild NiniteBot
+[2019-03-29T16:05:49.006] [DEBUG] Info-CMD - 4
+[2019-03-29T16:05:49.016] [DEBUG] Info-CMD - https://youtu.be/HWQR-hAJrKU?t=11s
+[2019-03-29T16:05:49.443] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - 
+[2019-03-29T16:05:55.450] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !info
+[2019-03-29T16:05:55.451] [INFO] Info-CMD - NiniteGamer#6666 has ran the !info command on guild NiniteBot
+[2019-03-29T16:05:55.451] [DEBUG] Info-CMD - 4
+[2019-03-29T16:05:55.464] [DEBUG] Info-CMD - https://youtu.be/HWQR-hAJrKU?t=11s
+[2019-03-29T16:05:55.846] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - 
+[2019-03-29T16:06:01.009] [INFO] MAIN - [ninitebot-testing]:NiniteGamer#6666 - !info
+[2019-03-29T16:06:01.009] [INFO] Info-CMD - NiniteGamer#6666 has ran the !info command on guild NiniteBot
+[2019-03-29T16:06:01.009] [DEBUG] Info-CMD - 4
+[2019-03-29T16:06:01.017] [DEBUG] Info-CMD - https://www.youtube.com/watch?v=n38Qxi7TVWo
+[2019-03-29T16:06:01.354] [INFO] MAIN - [ninitebot-testing]:NiniteBot#3389 - 

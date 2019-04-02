@@ -9,13 +9,21 @@ const logger = myLoggers.getLogger("Help_CMD");
 ///////////////////////////////////////////////////////////////////////////////
 
 //Update this sometime to the better way of doing embeds
+//Don't remember leaving this comment lol, um still need to update this just laziness making it hard.
 
-exports.run = async (client, message, args) => {
-    //if (!message.member.hasPermission("ADMINISTRATOR")) return message.author.send("__**MUSIC COMMANDS**__ \n!play, !pause, !resume, !queue, !search,!skip \n__**FUN COMMANDS**__ \n!meme, !johnny, !dan, !quote, !ping \n__**BASIC COMMANDS**__ \n!ninitebot, !help", { code: 'md' });
-    //if (message.author.send("__**ADMIN COMMANDS**__\n!purge <amount>, !mimic <message>, !help-mimic, !volume\n__**MUSIC COMMANDS**__ \n!play, !pause, !resume, !queue, !search, !volume, !skip, !fskip, \n__**FUN COMMANDS**__ \n!meme, !johnny, !dan, !quote, !ping \n__**BASIC COMMANDS**__ \n!ninitebot, !help", { code: 'md' }));
-    logger.info("The help command has been ran!")
+exports.run = async (client, message, args, helpinfoadmin) => {
+    logger.info("The help command has been ran${PREFIX}")
+    var helpdm = CONFIG.helpdm;
+    var PREFIX = CONFIG.defaultPrefix;
+    var member = message.member.hasPermission('KICK_MEMBERS');
+    console.log(member);
+    var memberName = message.member.name;
+    logger.info(`Member: ${memberName} has the kick_members permission ${member}`);
+    console.log(helpdm);
 
-    if (!message.member.hasPermission("ADMINISTRATOR")) return message.author.send({
+    var helpinfoadmin = null;
+
+    if (!message.member.hasPermission('KICK_MEMBERS')) return message.author.send({
         embed: {
             color: 3447003,
             author: {
@@ -33,11 +41,11 @@ exports.run = async (client, message, args) => {
             },
             {
                 name: "LEVEL COMMANDS",
-                value: "!level, !points"
+                value: `${PREFIX}level, ${PREFIX}points`
             },
             {
                 name: "MUSIC COMMANDS",
-                value: "!play, !pause, !resume, !queue, !search, !skip"
+                value: `${PREFIX}play, ${PREFIX}pause, ${PREFIX}resume, ${PREFIX}queue, ${PREFIX}search, ${PREFIX}skip`
             }
             ]
         }
@@ -45,7 +53,7 @@ exports.run = async (client, message, args) => {
 
     let image = 'https://cdn2.iconfinder.com/data/icons/flat-design-basic-set-9/24/secure-shield-protect-blue-512.png'
 
-    if (message.member.hasPermission("ADMINISTARTOR")) return message.author.send({
+    if (message.member.hasPermission("KICK_MEMBER" && "BAN_MEMBER")) return message.author.send({
         embed: {
             color: 3447003,
             author: {
@@ -55,23 +63,55 @@ exports.run = async (client, message, args) => {
             description: `${PREFIX}help`,
             fields: [{
                 name: "__BASIC COMMANDS__",
-                value: "!ninitebot, !help, !serverinfo, !info, !help-meme, !help-mimic"
+                value: `${PREFIX}ninitebot, ${PREFIX}help, ${PREFIX}serverinfo, ${PREFIX}info, ${PREFIX}help-meme, ${PREFIX}help-mimic, ${PREFIX}Testing`
             },
             {
                 name: "__ADMIN COMMANDS__",
-                value: "!invite, !mimic <text>, !purge <amount>"
+                value: `${PREFIX}invite, ${PREFIX}mimic <text>, ${PREFIX}purge <amount>`
             },
             {
                 name: "__LEVEL COMMANDS__",
-                value: "!level, !points, !reset_level_points @<user>"
+                value: `${PREFIX}level, ${PREFIX}points, ${PREFIX}reset_level_points @<user>`
             },
             {
                 name: "__FUN COMMANDS__",
-                value: "!meme, !dan, !quote, !urban, !johnny, !self-help, !ping, !ascii"
+                value: `${PREFIX}meme, ${PREFIX}dan, ${PREFIX}quote, ${PREFIX}urban, ${PREFIX}johnny, ${PREFIX}self-help, ${PREFIX}ping, ${PREFIX}ascii`
             },
             {
                 name: "__MUSIC COMMANDS__",
-                value: "!play, !pause, !resume, !queue, !search, !skip, !fskip, !volume <0 - 200)"
+                value: `${PREFIX}play, ${PREFIX}pause, ${PREFIX}resume, ${PREFIX}queue, ${PREFIX}search, ${PREFIX}skip, ${PREFIX}fskip, ${PREFIX}volume <0 - 200)`
+            }
+            ]
+        }
+    })
+
+    if (message.member.hasPermission("KICK_MEMBER" || "BAN_MEMBER")) return message.author.send({
+        embed: {
+            color: 3447003,
+            author: {
+                name: "Ninitebot Admin Help",
+                icon_url: client.user.avatarURL
+            },
+            description: `${PREFIX}help`,
+            fields: [{
+                name: "__BASIC COMMANDS__",
+                value: `${PREFIX}ninitebot, ${PREFIX}help, ${PREFIX}serverinfo, ${PREFIX}info, ${PREFIX}help-meme, ${PREFIX}help-mimic`
+            },
+            {
+                name: "__ADMIN COMMANDS__",
+                value: `${PREFIX}invite, ${PREFIX}mimic <text>, ${PREFIX}purge <amount>`
+            },
+            {
+                name: "__LEVEL COMMANDS__",
+                value: `${PREFIX}level, ${PREFIX}points, ${PREFIX}reset_level_points @<user>`
+            },
+            {
+                name: "__FUN COMMANDS__",
+                value: `${PREFIX}meme, ${PREFIX}dan, ${PREFIX}quote, ${PREFIX}urban, ${PREFIX}johnny, ${PREFIX}self-help, ${PREFIX}ping, ${PREFIX}ascii`
+            },
+            {
+                name: "__MUSIC COMMANDS__",
+                value: `${PREFIX}play, ${PREFIX}pause, ${PREFIX}resume, ${PREFIX}queue, ${PREFIX}search, ${PREFIX}skip, ${PREFIX}fskip, ${PREFIX}volume <0 - 200)`
             }
             ]
         }

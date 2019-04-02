@@ -8,6 +8,12 @@ const logger = myLoggers.getLogger("Meme_CMD");
 const randomPuppy = require('random-puppy');
 ///////////////////////////////////////////////////////////////////////////////
 
+/*
+
+    Going to rewrite this command in the future, but it's a low priority for now
+
+*/
+
 function getRandomInt(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);

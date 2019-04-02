@@ -13,6 +13,8 @@ const logger = myLoggers.getLogger("Default");
 
 exports.run = async (client, message, args, ops, BOTGAME) => {
 
+    logger.info(`${message.author.name} has ran the game/status command`);
+
     let gamemessagebegin = message.content
     let gamemessage = gamemessagebegin.substring(6)
     args = gamemessage;

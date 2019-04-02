@@ -13,6 +13,8 @@ module.exports.run = async (client, message, args, ops) => {
 
         if (!message.member.hasPermission("ADMINISTRATOR")) return message.channel.send(`:x: **ERROR&& *You have insufficient permissions. Requires \'ADMINISTRATOR\'`)
 
+        prefix = PREFIX;
+
         let amount = parseInt(args[0])
 
         if (amount == undefined) {
@@ -26,11 +28,11 @@ module.exports.run = async (client, message, args, ops) => {
             return
         }
 
-        if (message.author.id !== ops.ownerID) {
+        if (message.author.hasPermission("BAN_MEMBER")) {
             if (amount > 40 && amount > 0) amount = 40;
         } else {
             if (amount > 99 && amount > 0) amount = 99;
-        }
+        };
 
         const fetched = await message.channel.fetchMessages({
             limit: parseInt(amount + 1)

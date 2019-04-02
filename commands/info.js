@@ -18,25 +18,30 @@ exports.run = async (client, message, args, ops) => {
         return Math.floor(Math.random() * (max - min)) + min;
     }
 
-    var pataron = ['https://www.youtube.com/watch?v=dQw4w9WgXcQ', 'https://youtu.be/HWQR-hAJrKU?t=11s', 'https://www.youtube.com/watch?v=SQoA_wjmE9w']
+    var pataron = ['https://www.youtube.com/watch?v=dQw4w9WgXcQ', 'https://youtu.be/HWQR-hAJrKU?t=11s', 'https://www.youtube.com/watch?v=SQoA_wjmE9w', 'https://www.youtube.com/watch?v=n38Qxi7TVWo']
     logger.debug(pataron.length);
     console.log(pataron.length);
     
     //On command run it randomly selects a link to play when people hit click me on pateron
+    //sad that discord lets people know they're being redirected out of discord q.q
     var pateronrandom = getRandomInt(0, pataron.length);
 
     var selectedpateron = pataron[pateronrandom];
 
-    selectedpateron.toString();
-    logger.debug(selectedpateron);
+
     console.log(selectedpateron);
 
+    selectedpateron.toString();
+    logger.debug(selectedpateron);
+    
+
+    //So fancy
     let bicon = client.user.displayAvatarURL;
     let botinfoembed = new Discord.RichEmbed()
     .setColor ('#f44242')
     .setThumbnail(bicon)
     .addField("Bot Name", client.user.username, true)
-    .addField(":spy: Developer:", "Thomas the Tank Engine#0001", true)
+    .addField(":spy: Developer:", "NiniteGamer#6666", true)
     .addField(":robot: Version:", CONFIG.botVersion, true)
     .addField(":books: Library:", "discord.js", true)
     .addField(":shield: Guilds", client.guilds.size, true)
