@@ -4,7 +4,7 @@ const fs = require("fs");
 const client = new Discord.Client({
     disableEveryone: true
 });
-const sql = require("sqlite");
+//const sql = require("sqlite");
 const CONFIG = require("./storage/config.json");
 const TOKEN = CONFIG.token;
 const PREFIX = CONFIG.defaultPrefix;
@@ -18,7 +18,7 @@ const active = new Map();
 const myLoggers = require('log4js');
 ///////////////////////////////////////////////////////////////////////////////
 
-sql.open("./score.sqlite");
+// sql.open("./score.sqlite");
 
 //////////////////////////////// LOGGING SYSTEM ///////////////////////////////
 
@@ -41,6 +41,14 @@ const logger = myLoggers.getLogger("MAIN");
 
 ///////////////////////////////////////////////////////////////////////////////
 
+/* var http = require("http");
+
+http.createServer(function (request, response) {
+    response.writeHead(200, {'Content-Type': 'text/html'});
+    response.write(string CONFIG);
+    response.end('Boom!!!');
+}).listen(8081);
+ */
 /////////////////////////////// LISTENER EVENTS ///////////////////////////////
 
 client.on("ready", () => {
@@ -67,7 +75,7 @@ client.on("message", (message) => {
     let args = message.content.slice(PREFIX.length).trim().split(' ');
     let cmd = args.shift().toLowerCase();
 
-    sql.get(`SELECT * FROM scores WHERE userId ="${message.author.id}"`).then(row => {
+/*     sql.get(`SELECT * FROM scores WHERE userId ="${message.author.id}"`).then(row => {
         if (!row) {
             sql.run("INSERT INTO scores (userId, points, level) VALUES (?, ?, ?)", [message.author.id, 1, 0]);
         } else {
@@ -84,7 +92,7 @@ client.on("message", (message) => {
         sql.run("CREATE TABLE IF NOT EXISTS scores (userId TEXT, points INTEGER, level INTEGER)").then(() => {
             sql.run("INSERT INTO scores (userId, points, level) VALUES (?, ?, ?)", [message.author.id, 1, 0]);
         });
-    });
+    }); */
 
     if (!message.content.startsWith(PREFIX)) return;
 

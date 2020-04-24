@@ -46,6 +46,7 @@ exports.run = async (client, message, args, ops) => {
     mimic();
     //Deletes the command message to try to hide the fact that the author ran it
     if (message.content.startsWith("!mimic")) {
-        message.delete(1); //Supposed to delete message
+        message.delete()
+            .then(msg => console.log( `Deleted message from ${msg.author.username}`)); //Supposed to delete message
     }
 }

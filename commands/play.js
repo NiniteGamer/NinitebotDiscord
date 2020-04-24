@@ -17,10 +17,12 @@ exports.run = async (client, message, args, ops) => {
 
 
 
-    if (!message.member.voiceChannel) return message.channel.send('Please connect to a voice channel');
+    if (!message.member.voice.channel) return message.channel.send('Please connect to a voice channel');
 
     //Check if author input a url
     if (!args[0]) return message.channel.send('Sorry, please input a url following the command.');
+
+    console.log(args[0]);
 
     //Validate Info
     let validate = await ytdl.validateURL(args[0]);
@@ -40,7 +42,7 @@ exports.run = async (client, message, args, ops) => {
 
     let data = ops.active.get(message.guild.id) || {};
 
-    if (!data.connection) data.connection = await message.member.voiceChannel.join(); //If there isn't a connection, create one
+    if (!data.connection) data.connection = await message.member.voice.channel.join(); //If there isn't a connection, create one
 
     if (!data.queue) data.queue = []; //If there isn't a queue array, create one
 
@@ -51,9 +53,11 @@ exports.run = async (client, message, args, ops) => {
         songTitle: info.title,
 
         requester: message.author.tag,
-        url: args[0],
+        url: args[0].toString(),
         announceChannel: message.channel.id
     });
+
+    console.debug(data.queue);
 
     // If there isn't a dispatcher already created, run the play funcion
     if (!data.dispatcher) play(client, ops, data);
@@ -70,9 +74,16 @@ exports.run = async (client, message, args, ops) => {
 
 async function play(client, ops, data) {
 
-    client.channels.get(data.queue[0].announceChannel).send(`Now Playing: ${data.queue[0].songTitle} | Requested By: ${data.queue[0].requester}`);
+    console.log(data);
+    console.log(data.queue[0].url);
+    let link = data.queue[0].url;
+    console.log(link);
+    var linker = link.toString();
+    console.log(linker);
 
-    data.dispatcher = await data.connection.playStream(ytdl(data.queue[0].url, { filter: 'audioonly' }));
+    //client.channels.get(data.queue[0].announceChannel).send(`Now Playing: ${data.queue[0].songTitle} | Requested By: ${data.queue[0].requester}`);
+
+    data.dispatcher = await data.connection.play(ytdl(data.queue[0].url, { filter: 'audioonly' }));
     data.dispatcher.guildID = data.guildID;
 
     data.dispatcher.once('end', function () {
